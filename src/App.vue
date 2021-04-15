@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <EmojiInputText />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import EmojiInputText from './components/EmojiInputText.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    EmojiInputText
   }
 }
 </script>
@@ -21,6 +21,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 60px;
+  width: 50%;
 }
 </style>
