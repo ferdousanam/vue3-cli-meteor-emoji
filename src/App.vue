@@ -1,29 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <EmojiInputText />
+  <div class="container">
+    <div class="d-flex justify-content-center">
+      <div class="text-center">
+        <img alt="Vue logo" src="./assets/logo.png">
+        <h1>VueJS 3 - Meteor Emoji Picker</h1>
+      </div>
+    </div>
+    <div>
+      <InitMeteorEmoji />
+    </div>
+  </div>
 </template>
 
 <script>
-import EmojiInputText from './components/EmojiInputText.vue'
+import InitMeteorEmoji from "@/components/InitMeteorEmoji";
 
 export default {
   name: 'App',
   components: {
-    EmojiInputText
+    InitMeteorEmoji,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
-  width: 50%;
-}
 </style>

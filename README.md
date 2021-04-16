@@ -1,4 +1,6 @@
-# vue3-cli
+# VueJS 3 CLI Meteor Emoji
+
+<p align="center"><img src="/art/preview.png" alt="VueJS 3 CLI Meteor Emoji"></p>
 
 ## Project setup
 ```
