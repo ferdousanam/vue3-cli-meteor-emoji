@@ -8,7 +8,7 @@
 import MeteorEmoji from 'meteor-emoji/dist/meteorEmoji';
 
 export default {
-  name: "Emoji",
+  name: "MeteorEmoji",
   mounted() {
     new MeteorEmoji();
   }
